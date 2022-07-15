@@ -1,0 +1,106 @@
+.card{
+    /* border: 1px solid red; */
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap:10px;
+    margin: 70px;
+}
+.cardStart{
+    /* border: 1px solid blue; */
+    display: flex;
+    /* width:500px; */
+    justify-content: space-between;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
+
+    
+}
+.image{
+    /* border: 1px solid black; */
+    margin-top: 5px;
+    height: 100px;
+
+
+}
+.image>img{
+    border-radius: 10px;
+    margin-top: 2px;
+    height: 100%;
+    width:100%;
+    margin: 2px;
+}
+.timeing{
+    /* border: 1px solid red; */
+    display: flex;
+    width:200px;
+    margin-top:0px;
+    margin-top: -10px;
+    margin-bottom: 10px;
+    
+
+
+}
+.timeing>p{
+    padding: 0;
+}
+.restaurant{
+    /* border: 1px solid blue; */
+    text-align: left;
+    margin-top: -20px;
+    padding-top: -2px;
+    /* height:100px; */
+
+
+}
+.restaurant>h2{
+    color:red
+}
+.restaurant>h3{
+    text-align: left;
+    margin-top: -20px;
+    color:gray;
+
+}
+.restaurant>p{
+    margin-top: -10px;
+    color:gray;
+}
+.votesdiv{
+    /* border: 1px solid black; */
+
+
+}
+.votesdiv>div>p{
+  background-color: green;
+  color:white;
+  border-radius: 5px;
+  width:40px;
+  margin-left: 25px;
+  margin-top: 6px;;
+
+}
+.votesdiv>div>h6{
+    margin-top: -14px;
+    font-size: 13px;
+    color: gray;
+    margin-bottom: 10px;
+
+
+}
+.formData{
+    border: 1px solid red;
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    margin-left: 10px;
+    
+    
+}
+.formData>input{
+    width:200px
+}
+.formData>label{
+    text-align: left;
+    margin-bottom: 4px;
+}
+
